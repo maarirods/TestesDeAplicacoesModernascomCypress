@@ -48,7 +48,7 @@ describe('Work with basic elements', () => {
             .type('Erro{selectall}acerto', { delay: 100 })
             .should('have.value', 'acerto')
 
-            // TODO Validar os campos de texto
+        // TODO Validar os campos de texto
 
     })
 
@@ -91,13 +91,14 @@ describe('Work with basic elements', () => {
             .select('Superior')
             .should('have.value', 'superior')
 
-            // TODO Validar as opções do comboBox
+        // TODO Validar as opções do comboBox
     })
 
     it('ComboMultiple', () => {
         cy.get('[data-testid=dataEsportes]')
-        .select(['natacao', 'futebol'])      
-        
+            .select(['natacao', 'futebol'])
+
         // TODO Validar as opções selecionadas do combo multiplo
     })
+
 })
