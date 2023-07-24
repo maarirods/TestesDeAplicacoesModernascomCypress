@@ -91,12 +91,36 @@ describe('Work with basic elements', () => {
             .select('Superior')
             .should('have.value', 'superior')
 
+        cy.get('[data-test=dataEscolaridade] option')
+            .should('have.length', 8)
+
+        cy.get('[data-test=dataEscolaridade] option').then($arr => {
+
+            const values = []
+            $arr.each(function () {
+                values.push(this.innerHTML)
+            })
+            expect(values).to.include.members(["Doutorado", "Mestrado"])
+        })
+
+
+
         // TODO Validar as opções do comboBox
     })
 
-    it('ComboMultiple', () => {
+    it.only('ComboMultiple', () => {
         cy.get('[data-testid=dataEsportes]')
             .select(['natacao', 'futebol'])
+        //cy.get('[data-testid=dataEsportes]').should('have.value', ['natacao', 'futebol'])
+        cy.get('[data-testid=dataEsportes]').then($el => {
+            expect($el.val()).to.be.deep.equal(['natacao', 'futebol'])
+            expect($el.val()).to.have.length(2)
+            cy.get('[data-testid=dataEsportes]')
+                .invoke('val')
+                .should('eql', ['natacao', 'futebol'])
+
+        })
+
 
         // TODO Validar as opções selecionadas do combo multiplo
     })

@@ -16,3 +16,4 @@ Conteúdo do curso "Testes de aplicações modernas com Cypress" da Udemy - Intr
 ★ Pause, Debug, Reload, Hooks, e Before.
 ★ Validar textos, campos de texto e links.
 ★ Tipos de controle ( radioButton, checkBox, combo e combo múltiplo).
+★ Sincronismo (retry, wait, timeout, should vs then).
