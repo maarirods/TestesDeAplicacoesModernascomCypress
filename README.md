@@ -5,6 +5,7 @@ Conteúdo do curso "Testes de aplicações modernas com Cypress" da Udemy - Intr
 ![Maarirods GitHub stats](https://github-readme-stats.vercel.app/api?username=maarirods&show_icons=true&theme=tokyonight)
 
 ### ⚙️ Tecnologias e ferramentas Utilizadas: 
+[![Maarirods stats](https://github-readme-stats.vercel.app/api/maarirods?username=ffflabs)](https://github.com/maarirods/github-readme-stats)
 ★ JavaScript 
 ★ Cypress
 ★ VsCode
