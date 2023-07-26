@@ -2,6 +2,8 @@
 Automatizando testes funcionais (e2e), de API Rest (backend) e de interface gráfica (frontend) com apenas uma ferramenta.
 Conteúdo do curso "Testes de aplicações modernas com Cypress" da Udemy - Intrutor Francisco Wagner Costa Aquino
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=tokyonight)
+
 ### ⚙️ Tecnologias e ferramentas Utilizadas: 
 ★ JavaScript 
 ★ Cypress
@@ -17,3 +19,5 @@ Conteúdo do curso "Testes de aplicações modernas com Cypress" da Udemy - Intr
 ★ Validar textos, campos de texto e links.
 ★ Tipos de controle ( radioButton, checkBox, combo e combo múltiplo).
 ★ Sincronismo (retry, wait, timeout, should vs then).
+★ Helpers (wrap, its, invoke)
+★ Pontos de atenção (mocks, alert, alert com sub, confirm, prompt, iframe e popup)
