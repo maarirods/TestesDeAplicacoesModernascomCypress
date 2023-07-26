@@ -21,3 +21,5 @@ Conteúdo do curso "Testes de aplicações modernas com Cypress" da Udemy - Intr
 ★ Sincronismo (retry, wait, timeout, should vs then).
 ★ Helpers (wrap, its, invoke)
 ★ Pontos de atenção (mocks, alert, alert com sub, confirm, prompt, iframe e popup)
+★ Locators e adicionar plugin Xpatch
+★ Fixture
