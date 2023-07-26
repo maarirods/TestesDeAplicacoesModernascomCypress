@@ -2,7 +2,7 @@
 Automatizando testes funcionais (e2e), de API Rest (backend) e de interface gráfica (frontend) com apenas uma ferramenta.
 Conteúdo do curso "Testes de aplicações modernas com Cypress" da Udemy - Intrutor Francisco Wagner Costa Aquino
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=tokyonight)
+![Maarirods GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=tokyonight)
 
 ### ⚙️ Tecnologias e ferramentas Utilizadas: 
 ★ JavaScript 
