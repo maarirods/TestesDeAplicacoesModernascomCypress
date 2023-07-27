@@ -25,7 +25,9 @@ Conteúdo do curso "Testes de aplicações modernas com Cypress" da Udemy - Intr
 ★ Validar textos, campos de texto e links.
 ★ Tipos de controle ( radioButton, checkBox, combo e combo múltiplo).
 ★ Sincronismo (retry, wait, timeout, should vs then).
-★ Helpers (wrap, its, invoke)
-★ Pontos de atenção (mocks, alert, alert com sub, confirm, prompt, iframe e popup)
-★ Locators e adicionar plugin Xpatch
-★ Fixture
+★ Helpers (wrap, its, invoke).
+★ Pontos de atenção (mocks, alert, alert com sub, confirm, prompt, iframe e popup).
+★ Locators e adicionar plugin Xpatch.
+★ Fixture.
+★ Comandos e testes dinâmicos.
+★ Each, clock e tick.
